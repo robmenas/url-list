@@ -25,7 +25,7 @@ A extensão solicita a permissão:
 
 ## 📷 Captura de Tela
 
-![1746373146251](image/README/1746373146251.png)
+![1746373146251](image/README/screenshot.png)
 
 ## 🛠️ Tecnologias
 
