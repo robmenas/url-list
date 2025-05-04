@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 450px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+    }
+    .url-item {
+      margin: 8px 0;
+      word-break: break-all;
+    }
+    button {
+      margin: 5px;
+      padding: 8px 12px;
+      background: #0078d7;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #106ebe;
+    }
+    #buttons-container {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+<body>
+  <h3>Selecione as URLs para copiar:</h3>
+  <div id="urls-container"></div>
+  <div id="buttons-container">
+    <button id="toggleAll">Selecionar Todas</button>
+    <button id="copyUrls">Copiar URLs Selecionadas</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
